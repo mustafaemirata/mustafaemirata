@@ -25,7 +25,6 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=mustafaemirata&icon=3&color=0)](https://visitcount.itsvg.in)
 
-![Snake animation](https://github.com/mustafaemirata/mustafaemirata/blob/output/snake.svg)
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
