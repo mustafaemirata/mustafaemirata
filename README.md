@@ -24,9 +24,7 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=mustafaemirata&icon=3&color=0)](https://visitcount.itsvg.in)
 
-<p align="center">
-      <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mustafaemirata&theme=dracula&show_icons=true&count_private=true)"/>
-      <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=KULLANICI-İSMİ&layout=compact&langs_count=8&theme=TEMA-İSMİ"/>
-</p>
+![Snake animation](https://github.com/mustafaemirata/mustafaemirata/blob/output/snake.svg)
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
