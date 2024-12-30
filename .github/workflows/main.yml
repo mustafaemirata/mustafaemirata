@@ -1,38 +1,32 @@
-name:  generate  animation 
+name: Generate Snake Animation
 
-on: 
-  # her 24 saatte bir otomatik olarak çalışır 
-  schedule: 
-    -  cron:  "0 */12 * * *"  
-  
-  # işi herhangi bir zamanda manuel olarak çalıştırmaya izin verir 
-  workflow_dispatch: 
-  
-  # ana daldaki her push'ta çalışır 
-  push: 
-    branches: 
-    -  main 
+on:
+  schedule:
+    # Her gün 23:00'te çalışır.
+    - cron: "0 23 * * *"
+  workflow_dispatch:
 
-jobs: 
-  generate: 
-    runs-on:  ubuntu-latest 
-    timeout-minutes:  10 
-    
-    steps: 
-      # bir github kullanıcısı (<github_user_name>) katkılarından bir yılan oyunu üretir grafik, <svg_out_path> konumunda bir svg animasyonu çıktısı verir 
-      -  name:  generate  github-contribution-grid-snake.svg 
-        kullanır:  Platane/snk/svg-only@v3 
-        ile: 
-          github_user_name:  ${{  github.repository_owner  }} 
-          çıktıları:  | 
-            dist/github-contribution-grid-snake.svg 
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark 
-        env: 
-          GITHUB_TOKEN:  ${{  secrets.GITHUB_TOKEN  }} 
-          
-          
-      # <build_dir> içeriğini bir dala itin # içerik https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> adresinde 
-      veya github sayfası olarak kullanılabilir 
-      -  name:  github-contribution-grid-snake.svg dosyasını çıktı dalına itin uses  : crazy-max/ghaction-github-pages@v3.1.0 with: target_branch: output build_dir: dist env: GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
-         
-        
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Snake animation için veri indir
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      # Snake animation oluştur
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: mustafaemirata
+          outputs: dist/snake.svg
+
+      # Snake animasyonu GitHub Pages'a yükle
+      - name: Push Snake Animation to the output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
