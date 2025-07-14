@@ -1,5 +1,5 @@
 # 💫Hakkımda:
-🎓 Çankırı Karatekin Üniversitesi Bilgisayar Mühendisliği2. sınıf öğrencisiyim.<br>🚀 Mobil uygulamalar geliştiriyorum.<br>🛠️ Otomasyon tabanlı sistemler geliştiriyorum.<br>🧠 Makine Öğrenmesi ve yapay zeka alanında çalışmaktayım.<br>
+🎓 Çankırı Karatekin Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim.<br>🚀 Mobil uygulamalar geliştiriyorum.<br>🛠️ Otomasyon tabanlı sistemler geliştiriyorum.<br>🧠 Makine Öğrenmesi ve yapay zeka alanında çalışmaktayım.<br>
 
 
 ## 🌐 Hesaplarım:
