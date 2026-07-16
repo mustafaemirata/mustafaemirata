@@ -1,21 +1,81 @@
-# 💫Hakkımda:
-🎓 Çankırı Karatekin Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim.<br>🚀 Mobil uygulamalar geliştiriyorum.<br>🛠️ Otomasyon tabanlı sistemler geliştiriyorum.<br>🧠 Makine Öğrenmesi ve yapay zeka alanında çalışmaktayım.<br>
+<!--
+  KURULUM:
+  1. mustafaemirata/mustafaemirata reposunun ana dizinine bu README.md'yi koy
+  2. "assets" klasörünü (header.svg + footer.svg) da aynı repoya yükle
+  3. Dış servisli kartlar (stats, pixel kart) ilk yüklemede yavaş olabilir — sayfayı yenile
+-->
 
+<img src="./assets/header.svg" width="100%" alt="Mustafa Emir Ata"/>
 
-## 🌐 Hesaplarım:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/mustafa-emir-ata-b956aa28b/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mustafaemir.ata@outlook.com) 
+<div align="center">
 
-# 💻 Kullandıklarım:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=flat&logo=kotlin&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=flat&logo=dart&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=flat&logo=.net&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat&logo=anaconda&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=flat&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=flat&logo=microsoft%20sql%20server&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
-# 📊 İstatitstikler:
-![](https://github-readme-stats.vercel.app/api?username=mustafaemirata&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=mustafaemirata&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafaemirata&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<img src="https://avatars.githubusercontent.com/mustafaemirata" width="115" alt="Profil fotoğrafı"/>
 
-## 🏆 Kazanımlar
-![](https://github-profile-trophy.vercel.app/?username=mustafaemirata&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+<img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=16&pause=1000&color=FF2E88&center=true&vCenter=true&width=1000&height=50&lines=Mobil+Uygulama+Geli%C5%9Ftiricisi;Flutter+%E2%80%A2+Swift+%E2%80%A2+Firebase+%E2%80%A2+Python;Google+Play+%26+App+Store'da+yay%C4%B1nda" alt="Typing"/>
 
-### ✍️
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+</div>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🎮 Hakkımda
+
+- 🎓 **Çankırı Karatekin Üniversitesi** — Bilgisayar Mühendisliği 4. sınıf öğrencisiyim
+- 📱 **Flutter** ve **Swift** ile mobil uygulamalar geliştiriyorum
+- 🤖 **Python** ile yapay zeka destekli mobil uygulamalar üzerinde çalışıyorum
+- 🔥 Backend tarafında **Firebase** kullanıyorum
+- 🚀 **Google Play** ve **App Store**'da yayında uygulamalarım var
+
+<div align="center">
+
+![Google Play](https://img.shields.io/badge/Google_Play-Yay%C4%B1nda-fd1d1d?style=for-the-badge&logo=googleplay&logoColor=white&labelColor=2d1b69)
+![App Store](https://img.shields.io/badge/App_Store-Yay%C4%B1nda-fd1d1d?style=for-the-badge&logo=appstore&logoColor=white&labelColor=2d1b69)
+
+<br/><br/>
+
+<img src="./assets/frame-top.svg" width="100%" alt=""/>
+<img src="./assets/stadyum.png" width="100%" alt="Kadıköy pixel art"/>
+<img src="./assets/frame-bottom.svg" width="100%" alt=""/>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+<div align="center">
+
+<img src="./assets/tech-panel.svg" width="100%" alt="Teknolojiler"/>
+
+<img src="https://skillicons.dev/icons?i=flutter,dart,swift,kotlin,firebase,py,tensorflow,sklearn,anaconda,c,cpp,cs,java,dotnet,mysql,sqlite&perline=8" alt="Teknoloji ikonları"/>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## 📊 İstatistikler
+
+<div align="center">
+
+<!-- Bu kartlar .github/workflows/profile-cards.yml tarafından repo içinde üretilir: dış servis yok, asla kırılmaz -->
+<img src="./profile-summary-card-output/radical/0-profile-details.svg" width="99%" alt="Profil detayları"/>
+
+<img src="./profile-summary-card-output/radical/3-stats.svg" width="49%" alt="İstatistikler"/>
+<img src="./profile-summary-card-output/radical/1-repos-per-language.svg" width="49%" alt="Dillere göre repolar"/>
+
+<img src="./profile-summary-card-output/radical/2-most-commit-language.svg" width="49%" alt="En çok commit atılan diller"/>
+<img src="./profile-summary-card-output/radical/4-productive-time.svg" width="49%" alt="Üretken saatler"/>
+
+<img src="https://streak-stats.demolab.com/?user=mustafaemirata&theme=radical&hide_border=true" alt="Katkı serisi"/>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## 🌐 Bana Ulaşın
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mustafa-emir-ata-b956aa28b/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mustafaemir.ata@outlook.com)
+
+<img src="https://komarev.com/ghpvc/?username=mustafaemirata&style=flat-square&color=ff2e88&label=Profil+G%C3%B6r%C3%BCnt%C3%BClenme" alt="Görüntülenme"/>
+
+</div>
+
+<img src="./assets/footer.svg" width="100%" alt=""/>
