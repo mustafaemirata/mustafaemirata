@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1280 470" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38e1ff"/>
+      <stop offset="0.5" stop-color="#8a5cf6"/>
+      <stop offset="1" stop-color="#ff2e88"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#1c2a4a"/>
+      <stop offset="1" stop-color="#0b0f1e"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .mono{font-family:'Courier New',Courier,monospace}
+    .sans{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+    .pulse{animation:pu 2.5s ease-in-out infinite}
+    @keyframes pu{0%,100%{opacity:.5}50%{opacity:1}}
+  </style>
+
+  <rect width="1280" height="470" rx="18" fill="url(#glow)"/>
+  <rect x="1.5" y="1.5" width="1277" height="467" rx="17" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.7"/>
+
+  <!-- başlık -->
+  <rect x="200" y="52" width="240" height="3" fill="url(#neon)" class="pulse"/>
+  <rect x="840" y="52" width="240" height="3" fill="url(#neon)" class="pulse"/>
+  <text x="640" y="62" text-anchor="middle" class="sans" font-size="34" font-weight="bold" fill="#ffffff" letter-spacing="8">TEKNOLOJİLER</text>
+  <text x="640" y="94" text-anchor="middle" class="mono" font-size="15" fill="#7d8590" letter-spacing="4">mobil • yapay zeka • veri • araçlar</text>
+
+  <!-- kutu 1: MOBİL -->
+  <g>
+    <rect x="40" y="125" width="380" height="310" rx="10" fill="#0f1526" stroke="#233047" stroke-width="1.5"/>
+    <rect x="40" y="125" width="380" height="3" rx="1.5" fill="url(#neon)"/>
+    <text x="70" y="180" class="sans" font-size="27" font-weight="bold" fill="#ffffff">MOBİL</text>
+    <text x="70" y="206" class="sans" font-size="15" fill="#7d8590">iOS • Android • Cross-platform</text>
+    <circle cx="78" cy="250" r="4" fill="#38e1ff"/><text x="96" y="256" class="sans" font-size="18" fill="#c9d1d9">Flutter &amp; Dart</text>
+    <circle cx="78" cy="292" r="4" fill="#38e1ff"/><text x="96" y="298" class="sans" font-size="18" fill="#c9d1d9">Swift (iOS)</text>
+    <circle cx="78" cy="334" r="4" fill="#38e1ff"/><text x="96" y="340" class="sans" font-size="18" fill="#c9d1d9">Kotlin (Android)</text>
+    <circle cx="78" cy="376" r="4" fill="#38e1ff"/><text x="96" y="382" class="sans" font-size="18" fill="#c9d1d9">Firebase</text>
+  </g>
+
+  <!-- kutu 2: YAPAY ZEKA -->
+  <g>
+    <rect x="450" y="125" width="380" height="310" rx="10" fill="#0f1526" stroke="#233047" stroke-width="1.5"/>
+    <rect x="450" y="125" width="380" height="3" rx="1.5" fill="url(#neon)"/>
+    <text x="480" y="180" class="sans" font-size="27" font-weight="bold" fill="#ffffff">YAPAY ZEKA &amp; VERİ</text>
+    <text x="480" y="206" class="sans" font-size="15" fill="#7d8590">ML • Veri bilimi</text>
+    <circle cx="488" cy="250" r="4" fill="#8a5cf6"/><text x="506" y="256" class="sans" font-size="18" fill="#c9d1d9">Python</text>
+    <circle cx="488" cy="292" r="4" fill="#8a5cf6"/><text x="506" y="298" class="sans" font-size="18" fill="#c9d1d9">TensorFlow</text>
+    <circle cx="488" cy="334" r="4" fill="#8a5cf6"/><text x="506" y="340" class="sans" font-size="18" fill="#c9d1d9">scikit-learn</text>
+    <circle cx="488" cy="376" r="4" fill="#8a5cf6"/><text x="506" y="382" class="sans" font-size="18" fill="#c9d1d9">NumPy • Anaconda</text>
+  </g>
+
+  <!-- kutu 3: DİĞER -->
+  <g>
+    <rect x="860" y="125" width="380" height="310" rx="10" fill="#0f1526" stroke="#233047" stroke-width="1.5"/>
+    <rect x="860" y="125" width="380" height="3" rx="1.5" fill="url(#neon)"/>
+    <text x="890" y="180" class="sans" font-size="27" font-weight="bold" fill="#ffffff">DİĞER</text>
+    <text x="890" y="206" class="sans" font-size="15" fill="#7d8590">Diller • Veritabanları</text>
+    <circle cx="898" cy="250" r="4" fill="#ff2e88"/><text x="916" y="256" class="sans" font-size="18" fill="#c9d1d9">C • C++ • C#</text>
+    <circle cx="898" cy="292" r="4" fill="#ff2e88"/><text x="916" y="298" class="sans" font-size="18" fill="#c9d1d9">Java &amp; .NET</text>
+    <circle cx="898" cy="334" r="4" fill="#ff2e88"/><text x="916" y="340" class="sans" font-size="18" fill="#c9d1d9">MySQL • SQLite</text>
+    <circle cx="898" cy="376" r="4" fill="#ff2e88"/><text x="916" y="382" class="sans" font-size="18" fill="#c9d1d9">SQL Server</text>
+  </g>
+</svg>
