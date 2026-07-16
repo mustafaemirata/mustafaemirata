@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1280 140" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .tw{animation:tw 2.4s ease-in-out infinite}
+    .t2{animation-delay:.8s}
+    @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+  </style>
+  <rect id="s" width="6" height="6" fill="#ffffff"/>
+  <use href="#s" x="200" y="20" class="tw"/>
+  <use href="#s" x="640" y="12" class="tw t2"/>
+  <use href="#s" x="1050" y="25" class="tw"/>
+
+  <polygon fill="#833ab4" points="0,140 0,60 90,60 90,40 210,40 210,65 330,65 330,45 470,45 470,70 610,70 610,50 750,50 750,72 890,72 890,52 1030,52 1030,70 1160,70 1160,55 1280,55 1280,140"/>
+  <polygon fill="#fd1d1d" opacity="0.85" points="0,140 0,90 120,90 120,72 260,72 260,95 400,95 400,78 560,78 560,98 720,98 720,80 880,80 880,100 1040,100 1040,85 1280,85 1280,140"/>
+  <polygon fill="#fcb045" points="0,140 0,115 150,115 150,102 320,102 320,118 500,118 500,105 700,105 700,120 900,120 900,108 1100,108 1100,118 1280,118 1280,140"/>
+</svg>
