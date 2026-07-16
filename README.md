@@ -77,10 +77,8 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mustafa-emir-ata-b956aa28b/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mustafaemir.ata@outlook.com)
-
-<img src="https://komarev.com/ghpvc/?username=mustafaemirata&style=flat-square&color=ff2e88&label=Profil+G%C3%B6r%C3%BCnt%C3%BClenme" alt="Görüntülenme"/>
+<a href="https://www.linkedin.com/in/mustafaemirata/"><img src="./assets/contact-linkedin.svg" width="49%" alt="LinkedIn"/></a>
+<a href="mailto:mustafaemir.ata@outlook.com"><img src="./assets/contact-mail.svg" width="49%" alt="E-posta"/></a>
 
 </div>
 
