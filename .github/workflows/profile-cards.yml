@@ -4,8 +4,11 @@ on:
   schedule:
     - cron: "0 3 * * *"   # her gece otomatik guncelle
   workflow_dispatch:        # Actions sekmesinden elle calistirma
-  push:
-    branches: [main]
+
+# Ayni anda iki calisma birbirinin push'unu bozmasin
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -15,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
