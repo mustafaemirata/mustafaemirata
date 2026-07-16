@@ -25,5 +25,5 @@
 
   <!-- etiket kapsülü -->
   <rect x="480" y="0" width="320" height="34" rx="17" fill="#10162a" stroke="#233047" stroke-width="1.5"/>
-  <text x="640" y="23" text-anchor="middle" class="mono" font-size="16" fill="#38e1ff" letter-spacing="4">◈ ISTANBUL ◈</text>
+  <text x="640" y="23" text-anchor="middle" class="mono" font-size="16" fill="#38e1ff" letter-spacing="4">◈ PIXEL ART ◈</text>
 </svg>
